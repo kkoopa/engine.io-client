@@ -1,4 +1,66 @@
 
+0.7.9 / 2013-08-30
+==================
+
+ * websocket: pass `undefined` as the WebSocket "protocols"
+
+0.7.8 / 2013-08-30
+==================
+
+ * package: update "ws"
+
+0.7.7 / 2013-08-30
+==================
+
+ * package: bump ws to 0.4.30
+ * websocket: no more env sniffing, just require `ws` [TooTallNate]
+ * websocket: remove the "bufferedAmount" checking logic [TooTallNate]
+
+0.7.6 / 2013-08-30
+==================
+
+ * package: revert ws to avoid upgrade fail now
+
+0.7.5 / 2013-08-30
+==================
+
+ * package: bump ws to 0.4.30
+
+0.7.4 / 2013-08-25
+==================
+
+ * package: rolling back to `ws` `0.4.25` due to disconnection bug
+
+0.7.3 / 2013-08-23
+==================
+
+ * noop bump
+
+0.7.2 / 2013-08-23
+==================
+
+ * transports: fix WebSocket transport in the web browser (again)
+
+0.7.1 / 2013-08-23
+==================
+
+ * transports: fix WebSocket transport in the web browser
+ * package: upgrade "ws" to v0.4.29
+
+0.7.0 / 2013-08-23
+==================
+
+ * socket: add `agent` option
+ * package: point "xmlhttprequest" to our LearnBoost fork for agent support
+ * package: specify a newer version of "ws" that includes `agent` support
+ * util: use "component/has-cors"
+ * transport: fix whitespace
+ * util: use "component/global"
+ * package: Add repository field to readme
+ * socket: Don't lose packets writen during upgrade after a re-open
+ * socket: use a consistent "debug" name for socket.js
+ * package: Update emitter dep to 1.0.1 for old IE support
+
 0.6.3 / 2013-06-21
 ==================
 
